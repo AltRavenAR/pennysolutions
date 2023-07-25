@@ -1,0 +1,152 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    width:100%;
+    height:100%;
+  }
+  
+  /*navbar*/
+  .navbar {
+    display: flex;
+    top: 0;
+    margin-top: 0;
+    background-color: #81E979;
+    width: 100%;
+    justify-content: center;
+    
+  }
+  
+  
+  .space{
+    display:flex;
+    justify-content: center;
+    padding-right: 60px;
+  }
+  
+  
+  
+  
+  li {
+    display: flex; 
+    flex-direction: row;
+    
+    
+  }
+  
+  ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    list-style: none;
+   
+  
+  }
+  
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  /* adjust typography defaults */
+  body {
+    color:#363635;
+    margin: 0px;
+    font-family: sans-serif;
+    line-height: 1.5;
+    background-color: #B0FE76;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+  }
+  
+  
+  /* images and videos max out at full width */
+  img,
+  video {
+    height: auto;
+    max-width: 100%;
+  }
+  
+  /*font styling*/
+  h1, h2, h3, p, ul{
+    font-family: 'Caladea', serif;
+    text-align:center;
+  }
+  
+  
+  a{
+    color:#363635;
+    text-decoration: none;
+    transition: color 0.5s, font-size 1s;
+  }
+  
+  a:hover{
+    color: #a83f12;
+    font-size:18px;
+  }
+  
+  /*home*/
+  .penny{
+    display:flex;
+    justify-content:center;
+  }
+  #PennySolutions{
+    display:flex;
+    justify-content:center;
+  }
+  .appsnstuff{
+    display:flex;
+    justify-content: center;
+  }
+  .appspace{
+    display:flex;
+    padding:50px;
+  }
+  #footerone{
+    display:flex;
+    justify-content:center;
+    align-content:flex-end;
+  }
+  /*payments + about*/
+  .text {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+  }
+  .textunder{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content:center;
+  }
+  li.sortali{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content:center;
+  }
+  
+  #form{
+    display:flex;
+    justify-content: center;
+    
+  }
+  .listedcompanies{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+  }
+  #management{
+    display:flex;
+    justify-content:center;
+  }
+  .items{
+    display:flex;
+    
+  }
+  
